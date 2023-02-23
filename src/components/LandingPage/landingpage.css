@@ -1,0 +1,21 @@
+#content-header:hover {
+    cursor: pointer;
+    /* background: linear-gradient(to top #242424, #2e2e2e, #363636); */
+    background-color: #1a1a1a;
+    transition: background 0.3s ease-in;
+    
+}
+
+#blink-animation {
+    color: #f75cbd;
+    animation: blink 1s alternate infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.4;
+    }
+    100% {
+        opacity: 1;
+    }
+}

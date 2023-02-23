@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: helvetica;
+}
+
+body {
+    background-color: black;
+    color: white;
+    /* font-family: 'LaCebadita'; */
+}
+
+@font-face {
+    font-family: 'LaCebadita';
+    src: url('../src/assets/font/La Cebadita.otf');
+}
+
+@font-face {
+    font-family: 'helvetica';
+    src: local('helvetica-neue-font'), url('../src/assets/font/helvetica-neue-font/HelveticaNeueLT57Condensed.woff') format('opentype');
+}
